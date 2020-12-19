@@ -1,0 +1,24 @@
+{
+  "name": "read-google-spreadsheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfwygor-br/read-google-spreadsheet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfwygor-br/read-google-spreadsheet/issues"
+  },
+  "homepage": "https://github.com/sfwygor-br/read-google-spreadsheet#readme",
+  "dependencies": {
+    "google-spreadsheet": "^3.0.14"
+  }
+}
