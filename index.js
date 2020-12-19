@@ -24,6 +24,7 @@ const doc = new GoogleSpreadsheet(docId);
     let situacao = undefined;
     let naf      = undefined;
     let aprovadoFalta = undefined;
+    let media = undefined;
 
     //do the magic
     for (row = 4; row < 28; row++) {
