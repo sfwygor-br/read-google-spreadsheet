@@ -41,6 +41,7 @@ const doc = new GoogleSpreadsheet(docId);
 
         if (!aprovadoFalta) {
             situacao.value = 'Reprovado por Falta';
+            naf.value      = 0;
         } else {
             if (media < 50) {
                 situacao.value = 'Reprovado por Nota';
